@@ -89,6 +89,22 @@ footer {
   margin-top: 40px;
 }
 
+.validator-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.validator-badges img {
+  display: block;
+  width: auto;
+  height: 32px;
+  border: 0;
+  background: transparent;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 18px;
